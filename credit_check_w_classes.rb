@@ -60,8 +60,10 @@ class CreditCheck
   
 
 end
-valid_card = CreditCheck.new('5541801923795240')
-puts valid_card.valid
+valid_card_1 = CreditCheck.new('5541808923795240')
+puts valid_card_1.valid
+valid_card_2 = CreditCheck.new('5541801923795240')
+puts valid_card_2.valid
 
 
 
