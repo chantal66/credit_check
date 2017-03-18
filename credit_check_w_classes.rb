@@ -64,6 +64,11 @@ valid_card_1 = CreditCheck.new('5541808923795240')
 puts valid_card_1.valid
 valid_card_2 = CreditCheck.new('5541801923795240')
 puts valid_card_2.valid
+valid_card_3 = CreditCheck.new('342804633855673') #American Express
+puts valid_card_3.valid
+valid_card_3 = CreditCheck.new('342801633855673') #American Express
+puts valid_card_3.valid
+
 
 
 
